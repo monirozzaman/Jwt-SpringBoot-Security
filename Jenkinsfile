@@ -3,14 +3,8 @@ node{
   {
   git 'https://github.com/monirozzaman/Jwt-SpringBoot-Security'
   }
- 
-
-      
-
-  
     stage('Build Project')
   {
-   
-      sh 'mvn package'
+     sh 'mvn package'
   }
 }

@@ -8,7 +8,7 @@
 "role":["user"],
 "password":"1234567"
 }
-
+//regtghffd
 {
 "name": "Adam",
 "username":"adamgkz",

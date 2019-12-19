@@ -1,6 +1,6 @@
 # Jwt-SpringBoot-Security
-##sign up
-/api/auth/signup
+## sign up
+### /api/auth/signup
 {
 "name": "Jack",
 "username":"jackgkz",
@@ -25,8 +25,8 @@
 "password":"1234567"
 }
 
-##signin
-/api/auth/signin
+## signin
+### /api/auth/signin
 {
 "username":"jackgkz",
 "password":"1234567"

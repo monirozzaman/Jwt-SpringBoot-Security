@@ -10,7 +10,7 @@ node{
   
     stage('Build Project')
   {
-      def sql = Sql.newInstance("jdbc:mysql://localhost:3306/jwtUaa","root","","com.mysql.jdbc.Driver")
+   
       sh 'mvn package'
   }
 }

@@ -20,7 +20,8 @@ node{
 
         return sql
     }
-
+     echo "Connect to database..."
+  }
     stage('Build Project')
   {
   sh 'mvn package'

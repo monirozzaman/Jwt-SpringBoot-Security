@@ -3,27 +3,14 @@ node{
   {
   git 'https://github.com/monirozzaman/Jwt-SpringBoot-Security'
   }
-  def cloneEmtMaster(slug, repo){
+ 
 
-    @NonCPS
-    def getSqlInstance() {
-        def db   = "jwtUaa"
-        def user = "root"
-        def pwd  = ""
+      
 
-        def sql = Sql.newInstance(
-            "jdbc:mysql://localhost:3306/${db}",
-            "${user}",
-            "${pwd}",
-            "com.mysql.jdbc.Driver"
-        )
-
-        return sql
-    }
-     echo "Connect to database..."
-  }
+  
     stage('Build Project')
   {
-  sh 'mvn package'
+      def sql = Sql.newInstance("jdbc:mysql://localhost:3306/jwtUaa","root","","com.mysql.jdbc.Driver")
+      sh 'mvn package'
   }
 }

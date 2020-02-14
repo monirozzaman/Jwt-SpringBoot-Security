@@ -83,7 +83,7 @@
   <component name="RunManager">
     <configuration name="SpringBootJwtAuthenticationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="SpringBootJwtAuthentication" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.grokonez.jwtauthentication.SpringBootJwtAuthenticationApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itvillage.jwtauthentication.SpringBootJwtAuthenticationApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

@@ -1,18 +1,17 @@
 package com.grokonez.jwtauthentication.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import org.hibernate.annotations.NaturalId;
+
+import javax.persistence.*;
 
 @Entity
 @Table(name = "roles")
+@NoArgsConstructor
+@Getter
+@Setter
 public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,25 +22,8 @@ public class Role {
     @Column(length = 60)
     private RoleName name;
 
-    public Role() {}
-
     public Role(RoleName name) {
         this.name = name;
     }
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public RoleName getName() {
-        return name;
-    }
-
-    public void setName(RoleName name) {
-        this.name = name;
-    }
 }

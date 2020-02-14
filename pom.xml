@@ -43,10 +43,12 @@
 			<scope>runtime</scope>
 		</dependency>
 
-		<!--Liquibase-->
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 		<dependency>
-			<groupId>org.liquibase</groupId>
-			<artifactId>liquibase-core</artifactId>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.6</version>
+			<scope>provided</scope>
 		</dependency>
 
 		<!-- For Working with Json Web Tokens (JWT) -->

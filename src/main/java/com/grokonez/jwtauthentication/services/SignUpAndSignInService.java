@@ -44,17 +44,12 @@ public class SignUpAndSignInService {
                     HttpStatus.BAD_REQUEST);
         }
 
-        if (userRepository.existsByEmail(signUpRequest.getEmail())) {
-            return new ResponseEntity<String>("Fail -> Email is already in use!",
-                    HttpStatus.BAD_REQUEST);
-        }
 
         // Creating user's account
         User user = new User();
 
         Set<String> strRoles = signUpRequest.getRole();
         Set<Role> roles = new HashSet<>();
-
         strRoles.forEach(role -> {
             switch (role) {
                 case "admin":
@@ -77,9 +72,7 @@ public class SignUpAndSignInService {
         });
         String userId = UUID.randomUUID().toString();
         user.setId(userId);
-        user.setName(signUpRequest.getName());
         user.setUsername(signUpRequest.getUsername());
-        user.setEmail(signUpRequest.getEmail());
         user.setPassword(encoder.encode(signUpRequest.getPassword()));
         user.setRoles(roles);
         userRepository.save(user);

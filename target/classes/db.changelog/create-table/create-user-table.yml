@@ -15,17 +15,7 @@ databaseChangeLog:
                     primaryKeyName: pk_patient
                     nullable: false
               - column:
-                  name: name
-                  type: varchar(255)
-                  constraints:
-                    nullable: false
-              - column:
                   name: username
-                  type: varchar(255)
-                  constraints:
-                    nullable: false
-              - column:
-                  name: email
                   type: varchar(255)
                   constraints:
                     nullable: false

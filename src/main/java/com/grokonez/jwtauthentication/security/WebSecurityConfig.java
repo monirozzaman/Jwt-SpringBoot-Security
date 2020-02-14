@@ -1,6 +1,9 @@
 package com.grokonez.jwtauthentication.security;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import com.grokonez.jwtauthentication.security.jwt.JwtAuthEntryPoint;
+import com.grokonez.jwtauthentication.security.jwt.JwtAuthTokenFilter;
+import com.grokonez.jwtauthentication.security.services.UserDetailsServiceImpl;
+import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -14,21 +17,16 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.grokonez.jwtauthentication.security.jwt.JwtAuthEntryPoint;
-import com.grokonez.jwtauthentication.security.jwt.JwtAuthTokenFilter;
-import com.grokonez.jwtauthentication.security.services.UserDetailsServiceImpl;
-
 @Configuration
 @EnableWebSecurity
+@AllArgsConstructor
 @EnableGlobalMethodSecurity(
 		prePostEnabled = true
 )
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
-    @Autowired
-    UserDetailsServiceImpl userDetailsService;
 
-    @Autowired
-    private JwtAuthEntryPoint unauthorizedHandler;
+    private final UserDetailsServiceImpl userDetailsService;
+    private final JwtAuthEntryPoint unauthorizedHandler;
 
     @Bean
     public JwtAuthTokenFilter authenticationJwtTokenFilter() {
@@ -57,7 +55,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http.cors().and().csrf().disable().
                 authorizeRequests()
-                .antMatchers("/api/auth/**").permitAll()
                 .antMatchers("/public/**").permitAll()
                 .anyRequest().authenticated()
                 .and()

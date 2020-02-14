@@ -12,4 +12,4 @@ databaseChangeLog:
                   value: c8bfd72c-b961-4ac0-9e0b-8e4095993fe3
               - column:
                   name: role_id
-                  value: 1
+                  value: 3

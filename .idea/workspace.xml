@@ -1,27 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11808d30-34f4-4b9d-b8f2-443cff289320" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/services/SignUpAndSignInService.java" afterDir="false" />
+    <list default="true" id="89a21d3f-70fb-481e-80f5-5295277ca25e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/controller/AuthRestAPIs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/controller/AuthRestAPIs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/controller/TestRestAPIs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/controller/TestRestAPIs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/controller/TestRestAPIs.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/dto/request/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/dto/request/LoginForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/dto/request/SignUpForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/dto/request/SignUpForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/dto/response/JwtResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/dto/response/JwtResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/model/Role.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/security/jwt/JwtProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/security/jwt/JwtProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/security/services/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/security/services/UserDetailsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/security/services/UserPrinciple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/security/services/UserPrinciple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/create-table/create-user-roles-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/create-table/create-user-roles-table.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/services/SignUpAndSignInService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/services/SignUpAndSignInService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/create-table/create-user-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/create-table/create-user-table.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-roles-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-roles-table.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-table.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/controller/AuthRestAPIs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/controller/AuthRestAPIs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/message/request/LoginForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/message/request/SignUpForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/message/response/JwtResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/controller/TestRestAPIs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/dto/request/SignUpForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/dto/request/SignUpForm.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/security/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/security/WebSecurityConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/security/services/UserPrinciple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/security/services/UserPrinciple.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/services/SignUpAndSignInService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/services/SignUpAndSignInService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/create-table/create-user-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.changelog/create-table/create-user-table.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-user-roles-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-user-roles-table.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-user-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-user-table.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,15 +43,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -46,37 +58,15 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1S0kx3YPXMlKaYnVpZmWK47PzTa" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1XigCJAuZOohTMmUY5zhwWh1BeF" />
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="P:\Spring Boot\jwt-sql-springboot\SpringBootJwtAuthentication\src\main\resources\db.changelog\init-data" />
-      <recent name="P:\Spring Boot\jwt-sql-springboot\SpringBootJwtAuthentication\src\main\resources\db.changelog\create-table" />
-      <recent name="P:\Spring Boot\jwt-sql-springboot\SpringBootJwtAuthentication\src\main\resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="P:\Spring Boot\jwt-sql-springboot\SpringBootJwtAuthentication\src\main\resources\db.changelog" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -104,22 +94,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="11808d30-34f4-4b9d-b8f2-443cff289320" name="Default Changelist" comment="" />
-      <created>1570708144009</created>
+      <changelist id="89a21d3f-70fb-481e-80f5-5295277ca25e" name="Default Changelist" comment="" />
+      <created>1581534199156</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1570708144009</updated>
-      <workItem from="1570708145554" duration="1902000" />
-      <workItem from="1572373856135" duration="10317000" />
+      <updated>1581534199156</updated>
+      <workItem from="1581534200792" duration="39000" />
+      <workItem from="1581626220506" duration="1856000" />
+      <workItem from="1581668641267" duration="36000" />
+      <workItem from="1581675984376" duration="1525000" />
+      <workItem from="1581704091928" duration="2410000" />
     </task>
-    <task id="LOCAL-00001" summary="Add Liquibase">
-      <created>1572379993207</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1572379993207</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,9 +122,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Liquibase" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Liquibase" />
   </component>
 </project>

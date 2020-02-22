@@ -2,40 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89a21d3f-70fb-481e-80f5-5295277ca25e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/controller/AdminController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/controller/AuthRestAPIs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/controller/AuthRestAPIs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/controller/TestRestAPIs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/dto/request/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/dto/request/LoginForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/dto/request/SignUpForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/dto/request/SignUpForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/dto/response/JwtResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/dto/response/JwtResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/security/jwt/JwtProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/security/jwt/JwtProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/security/services/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/security/services/UserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/security/services/UserPrinciple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/security/services/UserPrinciple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/services/SignUpAndSignInService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grokonez/jwtauthentication/services/SignUpAndSignInService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/create-table/create-user-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/create-table/create-user-table.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-roles-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-roles-table.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-table.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/controller/AuthRestAPIs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/controller/AuthRestAPIs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/controller/AuthRestAPIs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/controller/AuthRestAPIs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/controller/TestRestAPIs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/dto/request/SignUpForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/dto/request/SignUpForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/security/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/security/WebSecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/security/services/UserPrinciple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/security/services/UserPrinciple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/services/SignUpAndSignInService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/services/SignUpAndSignInService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/create-table/create-user-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.changelog/create-table/create-user-table.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-user-roles-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-user-roles-table.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-user-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-user-table.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/SpringBootJwtAuthenticationApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/controller/AuthRestAPIs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/dto/request/LoginForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/dto/request/SignUpForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/dto/response/JwtResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/model/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/model/RoleName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/repository/RoleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/security/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/security/jwt/JwtAuthEntryPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/security/jwt/JwtAuthTokenFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/security/jwt/JwtProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/security/services/UserDetailsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/security/services/UserPrinciple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grokonez/jwtauthentication/services/SignUpAndSignInService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/grokonez/jwtauthentication/SpringBootJwtAuthenticationApplicationTests.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +55,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itvillage.jwtauthentication.controller" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -103,8 +96,25 @@
       <workItem from="1581626220506" duration="1856000" />
       <workItem from="1581668641267" duration="36000" />
       <workItem from="1581675984376" duration="1525000" />
-      <workItem from="1581704091928" duration="2410000" />
+      <workItem from="1581704091928" duration="2585000" />
+      <workItem from="1581791046912" duration="4458000" />
+      <workItem from="1582315317744" duration="1557000" />
     </task>
+    <task id="LOCAL-00001" summary="Cleaning Code">
+      <created>1581706582994</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581706582994</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Change Package Name">
+      <created>1581706667997</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581706667997</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,5 +132,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cleaning Code" />
+    <MESSAGE value="Change Package Name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change Package Name" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

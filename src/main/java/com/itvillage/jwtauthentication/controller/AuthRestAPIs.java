@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
-@CrossOrigin(origins = "*", maxAge = 3600)
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/public/")
 @AllArgsConstructor
@@ -28,5 +28,9 @@ public class AuthRestAPIs {
         return signUpAndSignInService.signUp(signUpRequest);
     }
 
+    @GetMapping("test")
+    public String get() {
+        return "hi";
+    }
 
 }

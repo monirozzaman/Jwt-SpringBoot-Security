@@ -1,5 +1,6 @@
 package com.itvillage.jwtauthentication.dto.request;
 
+import com.itvillage.jwtauthentication.model.RoleName;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -15,7 +16,7 @@ public class SignUpForm {
     @Size(min = 3, max = 50)
     private String username;
 
-    private Set<String> role;
+    private Set<RoleName> role;
 
     @NotBlank
     @Size(min = 6, max = 40)

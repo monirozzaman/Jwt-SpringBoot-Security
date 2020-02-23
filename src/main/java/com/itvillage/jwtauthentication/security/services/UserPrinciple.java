@@ -11,6 +11,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
+
 public class UserPrinciple implements UserDetails {
 	private static final long serialVersionUID = 1L;
 
@@ -30,13 +31,16 @@ public class UserPrinciple implements UserDetails {
         this.username = username;
         this.password = password;
         this.authorities = authorities;
+
+
     }
+
 
     public static UserPrinciple build(User user) {
         List<GrantedAuthority> authorities = user.getRoles().stream().map(role ->
                 new SimpleGrantedAuthority(role.getName().name())
         ).collect(Collectors.toList());
-
+        System.out.print(user.getUsername());
         return new UserPrinciple(
                 user.getId(),
                 user.getUsername(),

@@ -1,39 +1,38 @@
 # Jwt-SpringBoot-Security
+##### Step 1: Open Xampp Server
+##### Step 2: Open This project in Intellij  Idea
+##### Step 3: Run this
+
+## Test Using Postman in below instruction 
 ## sign up
-### /public/signup
+###### Post
+http://localhost:20230/public/signup
+```
 {
-
-"username":"jackgkz",
-"role":["user"],
-"password":"1234567"
+    "username": "roni2923",
+     "role":["ROLE_ADMIN"],
+    "password":"roni2923"
 }
-{
-
-"username":"adamgkz",
-"role":["user","pm"],
-"password":"1234567"
-}
-
-{
-"username":"ronigkz",
-"role":["admin"],
-"password":"1234567"
-}
-
+```
 ## signin
-### /public/signin
+###### Post
+http://localhost:20230/public/signin
+````
 {
-"username":"jackgkz",
-"password":"1234567"
+  "username": "roni2923",
+   "password":"roni2923"
 }
 
+````
+## Get User Details After Login
+###### Get
+##### Must be provide JWT token (which is you get when you login) in  Header 
+http://localhost:20230/user-details
+````
 {
-"username":"adamgkz",
-"password":"1234567"
+  "username": "roni2923",
+   "password":"roni2923"
 }
 
-{
-"username":"ronigkz",
-"password":"1234567"
-}
+````
 

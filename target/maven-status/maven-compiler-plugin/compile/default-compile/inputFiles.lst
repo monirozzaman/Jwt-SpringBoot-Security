@@ -1,6 +1,8 @@
 D:\Project\IT Village Ltd\SpringBoot\Jwt-SpringBoot-Security\src\main\java\com\itvillage\jwtauthentication\repository\UserRepository.java
 D:\Project\IT Village Ltd\SpringBoot\Jwt-SpringBoot-Security\src\main\java\com\itvillage\jwtauthentication\security\WebSecurityConfig.java
 D:\Project\IT Village Ltd\SpringBoot\Jwt-SpringBoot-Security\src\main\java\com\itvillage\jwtauthentication\dto\request\SignUpForm.java
+D:\Project\IT Village Ltd\SpringBoot\Jwt-SpringBoot-Security\src\main\java\com\itvillage\jwtauthentication\controller\UserDetailsController.java
+D:\Project\IT Village Ltd\SpringBoot\Jwt-SpringBoot-Security\src\main\java\com\itvillage\jwtauthentication\dto\response\LoggedUserDetailsResponse.java
 D:\Project\IT Village Ltd\SpringBoot\Jwt-SpringBoot-Security\src\main\java\com\itvillage\jwtauthentication\SpringBootJwtAuthenticationApplication.java
 D:\Project\IT Village Ltd\SpringBoot\Jwt-SpringBoot-Security\src\main\java\com\itvillage\jwtauthentication\repository\RoleRepository.java
 D:\Project\IT Village Ltd\SpringBoot\Jwt-SpringBoot-Security\src\main\java\com\itvillage\jwtauthentication\model\Role.java
@@ -8,11 +10,10 @@ D:\Project\IT Village Ltd\SpringBoot\Jwt-SpringBoot-Security\src\main\java\com\i
 D:\Project\IT Village Ltd\SpringBoot\Jwt-SpringBoot-Security\src\main\java\com\itvillage\jwtauthentication\model\User.java
 D:\Project\IT Village Ltd\SpringBoot\Jwt-SpringBoot-Security\src\main\java\com\itvillage\jwtauthentication\security\services\UserDetailsServiceImpl.java
 D:\Project\IT Village Ltd\SpringBoot\Jwt-SpringBoot-Security\src\main\java\com\itvillage\jwtauthentication\services\SignUpAndSignInService.java
-D:\Project\IT Village Ltd\SpringBoot\Jwt-SpringBoot-Security\src\main\java\com\itvillage\jwtauthentication\controller\AdminController.java
 D:\Project\IT Village Ltd\SpringBoot\Jwt-SpringBoot-Security\src\main\java\com\itvillage\jwtauthentication\security\jwt\JwtAuthEntryPoint.java
-D:\Project\IT Village Ltd\SpringBoot\Jwt-SpringBoot-Security\src\main\java\com\itvillage\jwtauthentication\controller\AuthRestAPIs.java
 D:\Project\IT Village Ltd\SpringBoot\Jwt-SpringBoot-Security\src\main\java\com\itvillage\jwtauthentication\security\services\UserPrinciple.java
 D:\Project\IT Village Ltd\SpringBoot\Jwt-SpringBoot-Security\src\main\java\com\itvillage\jwtauthentication\security\jwt\JwtAuthTokenFilter.java
 D:\Project\IT Village Ltd\SpringBoot\Jwt-SpringBoot-Security\src\main\java\com\itvillage\jwtauthentication\security\jwt\JwtProvider.java
 D:\Project\IT Village Ltd\SpringBoot\Jwt-SpringBoot-Security\src\main\java\com\itvillage\jwtauthentication\dto\request\LoginForm.java
 D:\Project\IT Village Ltd\SpringBoot\Jwt-SpringBoot-Security\src\main\java\com\itvillage\jwtauthentication\model\RoleName.java
+D:\Project\IT Village Ltd\SpringBoot\Jwt-SpringBoot-Security\src\main\java\com\itvillage\jwtauthentication\controller\AuthController.java

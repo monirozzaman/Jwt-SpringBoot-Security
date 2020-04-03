@@ -5,8 +5,10 @@ import lombok.Setter;
 
 import java.util.List;
 
-@Setter
+
 @Getter
+@Setter
+
 public class LoggedUserDetailsResponse {
 
     private String userName;

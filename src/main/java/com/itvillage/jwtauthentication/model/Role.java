@@ -1,5 +1,6 @@
 package com.itvillage.jwtauthentication.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -10,6 +11,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "roles")
 @NoArgsConstructor
+@AllArgsConstructor
 @Getter
 @Setter
 public class Role {
@@ -22,8 +24,5 @@ public class Role {
     @Column(length = 60)
     private RoleName name;
 
-    public Role(RoleName name) {
-        this.name = name;
-    }
 
 }

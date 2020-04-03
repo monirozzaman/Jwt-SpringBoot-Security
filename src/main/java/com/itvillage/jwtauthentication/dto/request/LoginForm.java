@@ -9,6 +9,7 @@ import javax.validation.constraints.Size;
 @Setter
 @Getter
 public class LoginForm {
+
     @NotBlank
     @Size(min=3, max = 60)
     private String username;

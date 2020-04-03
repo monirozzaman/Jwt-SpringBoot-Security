@@ -1,5 +1,6 @@
 package com.itvillage.jwtauthentication.security.jwt;
 
+
 import com.itvillage.jwtauthentication.security.services.UserDetailsServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -38,14 +39,14 @@ public class JwtAuthTokenFilter extends OncePerRequestFilter {
                 String username = tokenProvider.getUserNameFromJwtToken(jwt);
 
                 UserDetails userDetails = userDetailsService.loadUserByUsername(username);
-                UsernamePasswordAuthenticationToken authentication 
+                UsernamePasswordAuthenticationToken authentication
                 		= new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
                 authentication.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
 
                 SecurityContextHolder.getContext().setAuthentication(authentication);
             }
         } catch (Exception e) {
-            logger.error("Can NOT set user authentication -> Message: {}", e);
+            logger.error("Can NOT set user authentication", e);
         }
 
         filterChain.doFilter(request, response);

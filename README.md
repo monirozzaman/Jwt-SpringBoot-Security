@@ -28,11 +28,5 @@ http://localhost:20230/public/signin
 ###### Get
 ##### Must be provide JWT token (which is you get when you login) in  Header 
 http://localhost:20230/user-details
-````
-{
-  "username": "roni2923",
-   "password":"roni2923"
-}
 
-````
 

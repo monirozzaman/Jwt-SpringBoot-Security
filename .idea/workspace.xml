@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="89a21d3f-70fb-481e-80f5-5295277ca25e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/jwt/JwtProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/jwt/JwtProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itvillage/jwtauthentication/dto/response/LoggedUserDetailsResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itvillage/jwtauthentication/dto/response/LoggedUserDetailsResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itvillage/jwtauthentication/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itvillage/jwtauthentication/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itvillage/jwtauthentication/security/jwt/JwtProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itvillage/jwtauthentication/security/jwt/JwtProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/model/RoleName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/model/RoleName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/services/SignUpAndSignInService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/services/SignUpAndSignInService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-role-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-role-table.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itvillage/jwtauthentication/model/RoleName.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itvillage/jwtauthentication/model/RoleName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itvillage/jwtauthentication/services/SignUpAndSignInService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itvillage/jwtauthentication/services/SignUpAndSignInService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itvillage/jwtauthentication/services/SignUpAndSignInService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itvillage/jwtauthentication/services/SignUpAndSignInService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-role-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-role-table.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +48,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo_for_course" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -104,6 +107,7 @@
       <workItem from="1586653810797" duration="4462000" />
       <workItem from="1586677759685" duration="28000" />
       <workItem from="1586723375518" duration="1465000" />
+      <workItem from="1597732932331" duration="1189000" />
     </task>
     <task id="LOCAL-00001" summary="Cleaning Code">
       <created>1581706582994</created>

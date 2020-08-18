@@ -67,6 +67,24 @@ public class SignUpAndSignInService {
                     roles.add(pmRole);
 
                     break;
+                case ADMIN:
+                    Role admin = roleRepository.findByName(RoleName.ADMIN)
+                            .orElseThrow(() -> new RuntimeException("Fail! -> Cause: User Role not find."));
+                    roles.add(admin);
+
+                    break;
+                case LEARNER:
+                    Role learner = roleRepository.findByName(RoleName.LEARNER)
+                            .orElseThrow(() -> new RuntimeException("Fail! -> Cause: User Role not find."));
+                    roles.add(learner);
+
+                    break;
+                case INSTRUCTOR:
+                    Role instructor = roleRepository.findByName(RoleName.INSTRUCTOR)
+                            .orElseThrow(() -> new RuntimeException("Fail! -> Cause: User Role not find."));
+                    roles.add(instructor);
+
+                    break;
                 default:
                     Role userRole = roleRepository.findByName(RoleName.ROLE_USER)
                             .orElseThrow(() -> new RuntimeException("Fail! -> Cause: User Role not find."));

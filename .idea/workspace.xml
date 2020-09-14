@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="89a21d3f-70fb-481e-80f5-5295277ca25e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/jwt/JwtProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/jwt/JwtProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itvillage/jwtauthentication/dto/response/LoggedUserDetailsResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itvillage/jwtauthentication/dto/response/LoggedUserDetailsResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itvillage/jwtauthentication/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itvillage/jwtauthentication/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/itvillage/jwtauthentication/security/jwt/JwtProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itvillage/jwtauthentication/security/jwt/JwtProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/jwt/JwtAuthTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/jwt/JwtAuthTokenFilter.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +101,13 @@
       <workItem from="1586653810797" duration="4462000" />
       <workItem from="1586677759685" duration="28000" />
       <workItem from="1586723375518" duration="1465000" />
+      <workItem from="1586780599095" duration="200000" />
+      <workItem from="1587571162437" duration="1147000" />
+      <workItem from="1587658416425" duration="19000" />
+      <workItem from="1587676498173" duration="1734000" />
+      <workItem from="1587678397235" duration="1057000" />
+      <workItem from="1587750879267" duration="29000" />
+      <workItem from="1597787627880" duration="95000" />
     </task>
     <task id="LOCAL-00001" summary="Cleaning Code">
       <created>1581706582994</created>
@@ -140,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585874878149</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add Climes">
+      <created>1586780740307</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586780740307</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +176,8 @@
     <MESSAGE value="get Logged Details" />
     <MESSAGE value="get Logged Details by controller" />
     <MESSAGE value="Update README file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README file" />
+    <MESSAGE value="Add Climes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Climes" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

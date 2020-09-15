@@ -30,8 +30,8 @@ public class JwtProvider {
         UserPrinciple userPrincipal = (UserPrinciple) authentication.getPrincipal();
 
         Claims claims = Jwts.claims();
-        claims.setSubject(userPrincipal.getId());
-        claims.put("userName", userPrincipal.getUsername());
+        claims.setSubject(userPrincipal.getUsername());
+        claims.put("userId", userPrincipal.getId());
         claims.put("isAccountNonExpired", userPrincipal.isAccountNonExpired());
         claims.put("isCredentialsNonExpired", userPrincipal.isCredentialsNonExpired());
         claims.put("scopes", authorities.stream().map(s -> s.toString()).collect(Collectors.toList()));

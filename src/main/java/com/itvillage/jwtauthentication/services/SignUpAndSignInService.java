@@ -91,14 +91,14 @@ public class SignUpAndSignInService {
                     roles.add(userRole);
             }
         });
-        String userId = UUID.randomUUID().toString();
-        user.setId(userId);
+
+        user.setId(signUpRequest.getUserId());
         user.setUsername(signUpRequest.getUsername());
         user.setPassword(encoder.encode(signUpRequest.getPassword()));
         user.setRoles(roles);
         userRepository.save(user);
 
-        return new ResponseEntity<String>(userId, HttpStatus.OK);
+        return new ResponseEntity<String>(signUpRequest.getUserId(), HttpStatus.OK);
     }
 
     public JwtResponse signIn(LoginForm loginRequest) {

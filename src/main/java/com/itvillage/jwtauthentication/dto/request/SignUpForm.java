@@ -11,6 +11,9 @@ import java.util.Set;
 @Setter
 @Getter
 public class SignUpForm {
+    @NotBlank
+    @Size(min = 3, max = 50)
+    private String userId;
 
     @NotBlank
     @Size(min = 3, max = 50)

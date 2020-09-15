@@ -49,6 +49,9 @@ public class UserPrinciple implements UserDetails {
         );
     }
 
+    public String getId() {
+        return id;
+    }
 
     @Override
     public String getUsername() {

@@ -1,6 +1,7 @@
 package com.itvillage.jwtauthentication.controller;
 
 import com.itvillage.jwtauthentication.dto.request.LoginForm;
+import com.itvillage.jwtauthentication.dto.request.ResetPasswordForm;
 import com.itvillage.jwtauthentication.dto.request.SignUpForm;
 import com.itvillage.jwtauthentication.services.SignUpAndSignInService;
 import lombok.AllArgsConstructor;
@@ -28,5 +29,9 @@ public class AuthController {
         return signUpAndSignInService.signUp(signUpRequest);
     }
 
+    @PutMapping("reset/user/{userId}")
+    public ResponseEntity<String> resetUser(@Valid @RequestBody ResetPasswordForm resetPasswordForm, @PathVariable("userId") String userId) {
+        return signUpAndSignInService.reset(userId, resetPasswordForm);
+    }
 
 }

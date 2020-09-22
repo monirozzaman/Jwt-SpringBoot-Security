@@ -9,10 +9,10 @@ databaseChangeLog:
             columns:
               - column:
                   name: id
-                  value: c8bfd72c-b961-4ac0-9e0b-8e4095993fe3
+                  value: 258921
               - column:
                   name: username
-                  value: admin23
+                  value: elearner.live@gmail.com
               - column:
                   name: password
-                  value: admin
+                  value: $2a$10$.5W1DcxcG.OBTFUNItXX/OWwueWskjBbZfWFDJ6bMctv.PAEsM9zy

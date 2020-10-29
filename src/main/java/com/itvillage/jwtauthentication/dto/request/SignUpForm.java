@@ -11,6 +11,9 @@ import java.util.Set;
 @Setter
 @Getter
 public class SignUpForm {
+    @NotBlank
+    @Size(min = 3, max = 50)
+    private String userId;
 
     @NotBlank
     @Size(min = 3, max = 50)
@@ -19,7 +22,7 @@ public class SignUpForm {
     private Set<RoleName> role;
 
     @NotBlank
-    @Size(min = 6, max = 40)
+    @Size(min = 4, max = 40)
     private String password;
 
 }

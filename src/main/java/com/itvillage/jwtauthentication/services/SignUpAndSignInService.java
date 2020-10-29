@@ -1,6 +1,7 @@
 package com.itvillage.jwtauthentication.services;
 
 import com.itvillage.jwtauthentication.dto.request.LoginForm;
+import com.itvillage.jwtauthentication.dto.request.ResetPasswordForm;
 import com.itvillage.jwtauthentication.dto.request.SignUpForm;
 import com.itvillage.jwtauthentication.dto.response.JwtResponse;
 import com.itvillage.jwtauthentication.dto.response.LoggedUserDetailsResponse;
@@ -91,14 +92,14 @@ public class SignUpAndSignInService {
                     roles.add(userRole);
             }
         });
-        String userId = UUID.randomUUID().toString();
-        user.setId(userId);
+
+        user.setId(signUpRequest.getUserId());
         user.setUsername(signUpRequest.getUsername());
         user.setPassword(encoder.encode(signUpRequest.getPassword()));
         user.setRoles(roles);
         userRepository.save(user);
 
-        return new ResponseEntity<String>(userId, HttpStatus.OK);
+        return new ResponseEntity<String>(signUpRequest.getUserId(), HttpStatus.OK);
     }
 
     public JwtResponse signIn(LoginForm loginRequest) {
@@ -130,5 +131,18 @@ public class SignUpAndSignInService {
         loggedUserDetailsResponse.setUserRole(userRoleList);
         loggedUserDetailsResponse.setIsAuthenticated(authentication.isAuthenticated());
         return loggedUserDetailsResponse;
+    }
+
+    public ResponseEntity<String> reset(String userId, ResetPasswordForm resetPasswordForm) {
+        Optional<User> userOptional = userRepository.findById(userId);
+        if (!userOptional.isPresent()) {
+            return new ResponseEntity("User Not Found", HttpStatus.NOT_FOUND);
+        } else {
+            User user = userOptional.get();
+            user.setPassword(encoder.encode(resetPasswordForm.getPassword()));
+            userRepository.save(user);
+            return new ResponseEntity("Updated", HttpStatus.OK);
+        }
+
     }
 }

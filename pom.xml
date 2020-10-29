@@ -5,7 +5,7 @@
 
 	<groupId>com.grokonez.jwtauthentication</groupId>
 	<artifactId>SpringBootJwtAuthentication</artifactId>
-	<version>0.0.1</version>
+    <version>0.0.2</version>
 	<packaging>jar</packaging>
 
 	<name>SpringBootJwtAuthentication</name>
@@ -43,6 +43,12 @@
 			<scope>runtime</scope>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-actuator -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+			<version>2.3.3.RELEASE</version>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>

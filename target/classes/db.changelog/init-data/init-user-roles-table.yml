@@ -9,7 +9,7 @@ databaseChangeLog:
             columns:
               - column:
                   name: user_id
-                  value: c8bfd72c-b961-4ac0-9e0b-8e4095993fe3
+                  value: 258921
               - column:
                   name: role_id
                   value: 3

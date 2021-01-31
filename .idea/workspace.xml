@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89a21d3f-70fb-481e-80f5-5295277ca25e" name="Default Changelist" comment="Update liquibase for Core Static admin&#10;Remove Log Print">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-roles-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-roles-table.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-table.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,13 +31,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="59b3022c-732f-4a7a-9700-6d2ca45e73a0" />
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1XigCJAuZOohTMmUY5zhwWh1BeF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -50,6 +42,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -59,6 +52,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -132,6 +126,14 @@
       <workItem from="1603931453958" duration="784000" />
       <workItem from="1603932782823" duration="494000" />
       <workItem from="1604695904990" duration="44000" />
+      <workItem from="1609138524969" duration="1224000" />
+      <workItem from="1609141281539" duration="1999000" />
+      <workItem from="1609147655088" duration="1823000" />
+      <workItem from="1609232359136" duration="281000" />
+      <workItem from="1609299560211" duration="169000" />
+      <workItem from="1609389920361" duration="105000" />
+      <workItem from="1609404815468" duration="651000" />
+      <workItem from="1612092118469" duration="976000" />
     </task>
     <task id="LOCAL-00001" summary="Cleaning Code">
       <created>1581706582994</created>
@@ -220,67 +222,5 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="414" y="174" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603878976258">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="174" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603878976258" />
-    <state x="689" y="321" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1603878974354">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="689" y="321" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603878974354" />
-    <state x="534" y="88" key="CommitChangelistDialog2" timestamp="1603933035435">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="534" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603933035435" />
-    <state width="1505" height="282" key="GridCell.Tab.0.bottom" timestamp="1603932239481">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1505" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603932239481" />
-    <state width="1505" height="282" key="GridCell.Tab.0.center" timestamp="1603932239481">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1505" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603932239481" />
-    <state width="1505" height="282" key="GridCell.Tab.0.left" timestamp="1603932239480">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1505" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603932239480" />
-    <state width="1505" height="282" key="GridCell.Tab.0.right" timestamp="1603932239481">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1505" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603932239481" />
-    <state width="1505" height="282" key="GridCell.Tab.1.bottom" timestamp="1603932239482">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1505" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603932239482" />
-    <state width="1505" height="282" key="GridCell.Tab.1.center" timestamp="1603932239482">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1505" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603932239482" />
-    <state width="1505" height="282" key="GridCell.Tab.1.left" timestamp="1603932239481">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1505" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603932239481" />
-    <state width="1505" height="282" key="GridCell.Tab.1.right" timestamp="1603932239482">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1505" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603932239482" />
-    <state x="1022" y="259" key="MultipleFileMergeDialog" timestamp="1603931600220">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1022" y="259" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603931600220" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1603885521294">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603885521294" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603933266943">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603933266943" />
-    <state x="666" y="253" width="587" height="534" key="find.popup" timestamp="1603931510498">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="666" y="253" width="587" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603931510498" />
   </component>
 </project>

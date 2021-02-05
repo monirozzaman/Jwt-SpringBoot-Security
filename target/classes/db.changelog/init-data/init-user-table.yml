@@ -15,4 +15,4 @@ databaseChangeLog:
                   value: elearner.live@gmail.com
               - column:
                   name: password
-                  value: $2a$10$szN9sf8cZHlZIwFa77r8DOrayq7NwKjsIKuwSQeANO9CqyPkLcehS
+                  value: $2a$10$yMAVK5HNsNsTXeE3wrA5dexnP98PZKbFEghsmRTOM64/TPBdQB2fa

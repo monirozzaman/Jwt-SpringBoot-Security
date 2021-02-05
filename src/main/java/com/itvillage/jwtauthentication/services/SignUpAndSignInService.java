@@ -103,8 +103,7 @@ public class SignUpAndSignInService {
     }
 
     public JwtResponse signIn(LoginForm loginRequest) {
-        Authentication authentication = authenticationManager.authenticate(
-                new UsernamePasswordAuthenticationToken(
+        Authentication authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(
                         loginRequest.getUsername(),
                         loginRequest.getPassword()
                 )

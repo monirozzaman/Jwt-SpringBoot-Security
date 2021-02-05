@@ -7,9 +7,14 @@
     <list default="true" id="89a21d3f-70fb-481e-80f5-5295277ca25e" name="Default Changelist" comment="Update liquibase for Core Static admin&#10;Remove Log Print">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/services/SignUpAndSignInService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/services/SignUpAndSignInService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-table.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-user-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-user-table.yml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-roles-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-roles-table.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-table.yml" afterDir="false" />
+>>>>>>> dfe0fbd5438a7eeaf3ceb60fa91baae8613b49df
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +38,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="59b3022c-732f-4a7a-9700-6d2ca45e73a0" />
+<<<<<<< HEAD
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -45,6 +51,8 @@
       </MavenImportingSettings>
     </option>
   </component>
+=======
+>>>>>>> dfe0fbd5438a7eeaf3ceb60fa91baae8613b49df
   <component name="ProjectId" id="1XigCJAuZOohTMmUY5zhwWh1BeF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -56,6 +64,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -65,6 +74,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -168,7 +178,18 @@
       <workItem from="1603931453958" duration="784000" />
       <workItem from="1603932782823" duration="494000" />
       <workItem from="1604695904990" duration="44000" />
+<<<<<<< HEAD
       <workItem from="1612032206667" duration="2397000" />
+=======
+      <workItem from="1609138524969" duration="1224000" />
+      <workItem from="1609141281539" duration="1999000" />
+      <workItem from="1609147655088" duration="1823000" />
+      <workItem from="1609232359136" duration="281000" />
+      <workItem from="1609299560211" duration="169000" />
+      <workItem from="1609389920361" duration="105000" />
+      <workItem from="1609404815468" duration="651000" />
+      <workItem from="1612092118469" duration="976000" />
+>>>>>>> dfe0fbd5438a7eeaf3ceb60fa91baae8613b49df
     </task>
     <task id="LOCAL-00001" summary="Cleaning Code">
       <created>1581706582994</created>
@@ -259,6 +280,7 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="WindowStateProjectService">
     <state x="414" y="174" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603878976258">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -332,4 +354,6 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+=======
+>>>>>>> dfe0fbd5438a7eeaf3ceb60fa91baae8613b49df
 </project>

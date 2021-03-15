@@ -5,7 +5,7 @@
 
 	<groupId>com.grokonez.jwtauthentication</groupId>
 	<artifactId>SpringBootJwtAuthentication</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.1</version>
 	<packaging>jar</packaging>
 
 	<name>SpringBootJwtAuthentication</name>
@@ -69,7 +69,7 @@
 			<artifactId>jjwt</artifactId>
 			<version>0.9.0</version>
 		</dependency>
-	
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>

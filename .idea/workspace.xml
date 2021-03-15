@@ -4,56 +4,76 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89a21d3f-70fb-481e-80f5-5295277ca25e" name="Default Changelist" comment="Update liquibase for Core Static admin&#10;Remove Log Print">
+    <list default="true" id="3cf3ad5f-cd2d-4797-b453-1f207b09a17a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/SpringBootJwtAuthenticationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/SpringBootJwtAuthenticationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/controller/UserDetailsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/controller/UserDetailsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/request/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/request/LoginForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/request/ResetPasswordForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/request/ResetPasswordForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/request/SignUpForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/request/SignUpForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/response/JwtResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/response/JwtResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/response/LoggedUserDetailsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/response/LoggedUserDetailsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/model/RoleName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/model/RoleName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/repository/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/jwt/JwtAuthEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/jwt/JwtAuthEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/jwt/JwtAuthTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/jwt/JwtAuthTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/jwt/JwtProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/jwt/JwtProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/services/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/services/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/services/UserPrinciple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/services/UserPrinciple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/services/SignUpAndSignInService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/services/SignUpAndSignInService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-table.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-user-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-user-table.yml" afterDir="false" />
-=======
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/create-table/create-role-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/create-table/create-role-table.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/create-table/create-user-roles-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/create-table/create-user-roles-table.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/create-table/create-user-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/create-table/create-user-table.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/db.changelog-master.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/db.changelog-master.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-role-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-role-table.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-roles-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-roles-table.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-table.yml" afterDir="false" />
->>>>>>> dfe0fbd5438a7eeaf3ceb60fa91baae8613b49df
+      <change beforePath="$PROJECT_DIR$/src/main/resources/roles.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/roles.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/itvillage/jwtauthentication/SpringBootJwtAuthenticationApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/itvillage/jwtauthentication/SpringBootJwtAuthenticationApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SpringBootJwtAuthentication-0.0.2.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/create-table/create-role-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.changelog/create-table/create-role-table.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/create-table/create-user-roles-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.changelog/create-table/create-user-roles-table.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/create-table/create-user-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.changelog/create-table/create-user-table.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/db.changelog-master.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.changelog/db.changelog-master.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-role-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-role-table.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-user-roles-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-user-roles-table.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-user-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-user-table.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/roles.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/roles.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-29T06-40-54_134-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.itvillage.jwtauthentication.SpringBootJwtAuthenticationApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.itvillage.jwtauthentication.SpringBootJwtAuthenticationApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.itvillage.jwtauthentication.SpringBootJwtAuthenticationApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.itvillage.jwtauthentication.SpringBootJwtAuthenticationApplicationTests.txt" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="59b3022c-732f-4a7a-9700-6d2ca45e73a0" />
-<<<<<<< HEAD
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
-      </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-=======
->>>>>>> dfe0fbd5438a7eeaf3ceb60fa91baae8613b49df
-  <component name="ProjectId" id="1XigCJAuZOohTMmUY5zhwWh1BeF" />
+  <component name="ProjectId" id="1o3VycaZjFvDTc6RZPMCIpVUqAD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -65,295 +85,67 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.itvillage.jwtauthentication.controller" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
-    <configuration name="SpringBootJwtAuthenticationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="SpringBootJwtAuthentication" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itvillage.jwtauthentication.SpringBootJwtAuthenticationApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="SpringBootJwtAuthenticationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Jwt-SpringBoot-Security" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itvillage.jwtauthentication.SpringBootJwtAuthenticationApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
   </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e30bb84b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e30bb84b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1496634" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
-  </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="89a21d3f-70fb-481e-80f5-5295277ca25e" name="Default Changelist" comment="" />
-      <created>1581534199156</created>
+      <changelist id="3cf3ad5f-cd2d-4797-b453-1f207b09a17a" name="Default Changelist" comment="" />
+      <created>1612515516600</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1581534199156</updated>
-      <workItem from="1581534200792" duration="39000" />
-      <workItem from="1581626220506" duration="1856000" />
-      <workItem from="1581668641267" duration="36000" />
-      <workItem from="1581675984376" duration="1525000" />
-      <workItem from="1581704091928" duration="2585000" />
-      <workItem from="1581791046912" duration="4458000" />
-      <workItem from="1582315317744" duration="1557000" />
-      <workItem from="1582454389906" duration="794000" />
-      <workItem from="1582455797351" duration="3333000" />
-      <workItem from="1582483706465" duration="8949000" />
-      <workItem from="1582827858253" duration="2242000" />
-      <workItem from="1582830567850" duration="1088000" />
-      <workItem from="1584631342007" duration="1443000" />
-      <workItem from="1585826622939" duration="110000" />
-      <workItem from="1585838068523" duration="503000" />
-      <workItem from="1585862990024" duration="8348000" />
-      <workItem from="1585873784031" duration="1275000" />
-      <workItem from="1586653810797" duration="4462000" />
-      <workItem from="1586677759685" duration="28000" />
-      <workItem from="1586723375518" duration="1465000" />
-      <workItem from="1597732932331" duration="1356000" />
-      <workItem from="1603872927496" duration="289000" />
-      <workItem from="1603873636803" duration="1925000" />
-      <workItem from="1603878655500" duration="934000" />
-      <workItem from="1603879805727" duration="33000" />
-      <workItem from="1603885436975" duration="1461000" />
-      <workItem from="1603909682406" duration="219000" />
-      <workItem from="1603928142560" duration="2106000" />
-      <workItem from="1603931453958" duration="784000" />
-      <workItem from="1603932782823" duration="494000" />
-      <workItem from="1604695904990" duration="44000" />
-<<<<<<< HEAD
-      <workItem from="1612032206667" duration="2397000" />
-=======
-      <workItem from="1609138524969" duration="1224000" />
-      <workItem from="1609141281539" duration="1999000" />
-      <workItem from="1609147655088" duration="1823000" />
-      <workItem from="1609232359136" duration="281000" />
-      <workItem from="1609299560211" duration="169000" />
-      <workItem from="1609389920361" duration="105000" />
-      <workItem from="1609404815468" duration="651000" />
-      <workItem from="1612092118469" duration="976000" />
->>>>>>> dfe0fbd5438a7eeaf3ceb60fa91baae8613b49df
+      <updated>1612515516600</updated>
+      <workItem from="1612515520357" duration="227000" />
+      <workItem from="1612517570791" duration="106000" />
+      <workItem from="1615827396054" duration="2118000" />
+      <workItem from="1615830378129" duration="102000" />
     </task>
-    <task id="LOCAL-00001" summary="Cleaning Code">
-      <created>1581706582994</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1581706582994</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Change Package Name">
-      <created>1581706667997</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1581706667997</updated>
-    </task>
-    <task id="LOCAL-00003" summary="get Logged Details">
-      <created>1582491800692</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1582491800692</updated>
-    </task>
-    <task id="LOCAL-00004" summary="get Logged Details by controller">
-      <created>1585874051341</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1585874051341</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Update README file">
-      <created>1585874878149</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1585874878149</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Add New Role For elearners.live">
-      <created>1597734178800</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1597734178801</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Update liquibase for Core Static admin">
-      <created>1603931055190</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1603931055190</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Update liquibase for Core Static admin&#10;Remove Log Print">
-      <created>1603931543911</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1603931543911</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Cleaning Code" />
-    <MESSAGE value="Change Package Name" />
-    <MESSAGE value="get Logged Details" />
-    <MESSAGE value="get Logged Details by controller" />
-    <MESSAGE value="Update README file" />
-    <MESSAGE value="Add New Role For elearners.live" />
-    <MESSAGE value="Update liquibase for Core Static admin" />
-    <MESSAGE value="Update liquibase for Core Static admin&#10;Remove Log Print" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update liquibase for Core Static admin&#10;Remove Log Print" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-<<<<<<< HEAD
-  <component name="WindowStateProjectService">
-    <state x="414" y="174" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603878976258">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="174" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603878976258" />
-    <state x="689" y="321" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1603878974354">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="689" y="321" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603878974354" />
-    <state x="534" y="88" key="CommitChangelistDialog2" timestamp="1603933035435">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="534" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603933035435" />
-    <state width="1505" height="282" key="GridCell.Tab.0.bottom" timestamp="1603932239481">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1505" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603932239481" />
-    <state width="1505" height="282" key="GridCell.Tab.0.center" timestamp="1603932239481">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1505" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603932239481" />
-    <state width="1505" height="282" key="GridCell.Tab.0.left" timestamp="1603932239480">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1505" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603932239480" />
-    <state width="1505" height="282" key="GridCell.Tab.0.right" timestamp="1603932239481">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1505" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603932239481" />
-    <state width="1505" height="282" key="GridCell.Tab.1.bottom" timestamp="1603932239482">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1505" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603932239482" />
-    <state width="1505" height="282" key="GridCell.Tab.1.center" timestamp="1603932239482">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1505" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603932239482" />
-    <state width="1505" height="282" key="GridCell.Tab.1.left" timestamp="1603932239481">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1505" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603932239481" />
-    <state width="1505" height="282" key="GridCell.Tab.1.right" timestamp="1603932239482">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1505" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603932239482" />
-    <state x="1022" y="259" key="MultipleFileMergeDialog" timestamp="1603931600220">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1022" y="259" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603931600220" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1603885521294">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603885521294" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1603933266943">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603933266943" />
-    <state x="666" y="253" width="587" height="534" key="find.popup" timestamp="1603931510498">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="666" y="253" width="587" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603931510498" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/services/SignUpAndSignInService.java</url>
-          <line>113</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-=======
->>>>>>> dfe0fbd5438a7eeaf3ceb60fa91baae8613b49df
 </project>

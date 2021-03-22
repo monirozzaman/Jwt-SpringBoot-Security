@@ -1,13 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: com.itvillage.jwtauthentication.SpringBootJwtAuthenticationApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.727 s <<< FAILURE! - in com.itvillage.jwtauthentication.SpringBootJwtAuthenticationApplicationTests
-contextLoads(com.itvillage.jwtauthentication.SpringBootJwtAuthenticationApplicationTests)  Time elapsed: 0.001 s  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 18.983 s <<< FAILURE! - in com.itvillage.jwtauthentication.SpringBootJwtAuthenticationApplicationTests
+contextLoads  Time elapsed: 0.003 s  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
-Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
-Caused by: org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
-Caused by: org.hibernate.HibernateException: Unable to instantiate default tuplizer [org.hibernate.tuple.entity.PojoEntityTuplizer]
-Caused by: java.lang.reflect.InvocationTargetException
-Caused by: java.lang.NullPointerException
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: Invocation of init method failed; nested exception is java.lang.ClassCastException: class java.time.LocalDateTime cannot be cast to class java.lang.String (java.time.LocalDateTime and java.lang.String are in module java.base of loader 'bootstrap')
+Caused by: java.lang.ClassCastException: class java.time.LocalDateTime cannot be cast to class java.lang.String (java.time.LocalDateTime and java.lang.String are in module java.base of loader 'bootstrap')
 

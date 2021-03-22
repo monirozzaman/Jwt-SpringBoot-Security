@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Jwt-SpringBoot-Security" target="1.8" />
+      <module name="Jwt-SpringBoot-Security" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

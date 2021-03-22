@@ -5,63 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cf3ad5f-cd2d-4797-b453-1f207b09a17a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/SpringBootJwtAuthenticationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/SpringBootJwtAuthenticationApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/controller/UserDetailsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/controller/UserDetailsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/request/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/request/LoginForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/request/ResetPasswordForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/request/ResetPasswordForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/request/SignUpForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/request/SignUpForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/response/JwtResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/response/JwtResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/response/LoggedUserDetailsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/response/LoggedUserDetailsResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/model/RoleName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/model/RoleName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/repository/RoleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/jwt/JwtAuthEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/jwt/JwtAuthEntryPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/jwt/JwtAuthTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/jwt/JwtAuthTokenFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/jwt/JwtProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/jwt/JwtProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/services/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/services/UserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/services/UserPrinciple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/security/services/UserPrinciple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/services/SignUpAndSignInService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/services/SignUpAndSignInService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/create-table/create-role-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/create-table/create-role-table.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/create-table/create-user-roles-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/create-table/create-user-roles-table.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/create-table/create-user-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/create-table/create-user-table.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/db.changelog-master.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/db.changelog-master.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-role-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-role-table.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-roles-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-roles-table.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-user-table.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/roles.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/roles.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/itvillage/jwtauthentication/SpringBootJwtAuthenticationApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/itvillage/jwtauthentication/SpringBootJwtAuthenticationApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringBootJwtAuthentication-0.0.2.jar.original" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/create-table/create-role-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.changelog/create-table/create-role-table.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/create-table/create-user-roles-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.changelog/create-table/create-user-roles-table.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/create-table/create-user-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.changelog/create-table/create-user-table.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/db.changelog-master.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.changelog/db.changelog-master.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-role-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-role-table.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-user-roles-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-user-roles-table.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-user-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-user-table.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/roles.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/roles.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-10-29T06-40-54_134-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2021-03-15T23-44-28_460.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2021-03-15T23-45-31_187.dumpstream" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.itvillage.jwtauthentication.SpringBootJwtAuthenticationApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.itvillage.jwtauthentication.SpringBootJwtAuthenticationApplicationTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.itvillage.jwtauthentication.SpringBootJwtAuthenticationApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.itvillage.jwtauthentication.SpringBootJwtAuthenticationApplicationTests.txt" afterDir="false" />
     </list>
@@ -94,19 +54,6 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpringBootJwtAuthenticationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Jwt-SpringBoot-Security" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itvillage.jwtauthentication.SpringBootJwtAuthenticationApplication" />
@@ -130,6 +77,8 @@
       <workItem from="1612517570791" duration="106000" />
       <workItem from="1615827396054" duration="2118000" />
       <workItem from="1615830378129" duration="102000" />
+      <workItem from="1615895102668" duration="2091000" />
+      <workItem from="1615960453216" duration="1446000" />
     </task>
     <servers />
   </component>

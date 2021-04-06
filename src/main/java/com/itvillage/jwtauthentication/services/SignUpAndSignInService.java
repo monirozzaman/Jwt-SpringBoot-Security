@@ -96,6 +96,7 @@ public class SignUpAndSignInService {
         user.setId(signUpRequest.getUserId());
         user.setUsername(signUpRequest.getUsername());
         user.setPassword(encoder.encode(signUpRequest.getPassword()));
+        user.setApplicationName(signUpRequest.getApplicationName());
         user.setRoles(roles);
         userRepository.save(user);
 

@@ -20,6 +20,11 @@ databaseChangeLog:
                   constraints:
                     nullable: false
               - column:
+                  name: application_name
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
                   name: password
                   type: varchar(255)
                   constraints:

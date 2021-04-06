@@ -12,12 +12,12 @@ public class SignUpForm {
 
     private String userId;
 
-
     private String username;
 
     private Set<RoleName> role;
 
-
     private String password;
+
+    private String applicationName;
 
 }

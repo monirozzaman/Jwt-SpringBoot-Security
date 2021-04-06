@@ -1,5 +1,4 @@
 databaseChangeLog:
-
   - include:
       file: "classpath:/db.changelog/create-table/create-role-table.yml"
   - include:

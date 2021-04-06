@@ -1,9 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.itvillage.jwtauthentication.SpringBootJwtAuthenticationApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 18.983 s <<< FAILURE! - in com.itvillage.jwtauthentication.SpringBootJwtAuthenticationApplicationTests
-contextLoads  Time elapsed: 0.003 s  <<< ERROR!
-java.lang.IllegalStateException: Failed to load ApplicationContext
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: Invocation of init method failed; nested exception is java.lang.ClassCastException: class java.time.LocalDateTime cannot be cast to class java.lang.String (java.time.LocalDateTime and java.lang.String are in module java.base of loader 'bootstrap')
-Caused by: java.lang.ClassCastException: class java.time.LocalDateTime cannot be cast to class java.lang.String (java.time.LocalDateTime and java.lang.String are in module java.base of loader 'bootstrap')
-

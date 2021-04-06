@@ -42,9 +42,8 @@
 		<dependency>
 			<groupId>org.liquibase</groupId>
 			<artifactId>liquibase-core</artifactId>
-			<version>3.8.6</version>
+			<version>4.3.2</version>
 		</dependency>
-
 		<!-- For Working with Json Web Tokens (JWT) -->
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>

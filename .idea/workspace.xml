@@ -5,25 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cf3ad5f-cd2d-4797-b453-1f207b09a17a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/request/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/request/LoginForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/request/ResetPasswordForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/request/ResetPasswordForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/request/SignUpForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/dto/request/SignUpForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itvillage/jwtauthentication/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/itvillage/jwtauthentication/SpringBootJwtAuthenticationApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/itvillage/jwtauthentication/SpringBootJwtAuthenticationApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2021-03-15T23-44-28_460.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2021-03-15T23-45-31_187.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.itvillage.jwtauthentication.SpringBootJwtAuthenticationApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.itvillage.jwtauthentication.SpringBootJwtAuthenticationApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.itvillage.jwtauthentication.SpringBootJwtAuthenticationApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.itvillage.jwtauthentication.SpringBootJwtAuthenticationApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/db.changelog-master.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/db.changelog-master.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-role-table.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.changelog/init-data/init-role-table.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/create-table/create-role-table.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/create-table/create-user-roles-table.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/create-table/create-user-table.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/db.changelog-master.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-role-table.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-user-roles-table.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.changelog/init-data/init-user-table.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/roles.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.itvillage.jwtauthentication.SpringBootJwtAuthenticationApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.itvillage.jwtauthentication.SpringBootJwtAuthenticationApplicationTests.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +46,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -54,6 +56,17 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootJwtAuthenticationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Jwt-SpringBoot-Security" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.itvillage.jwtauthentication.SpringBootJwtAuthenticationApplication" />
@@ -79,7 +92,17 @@
       <workItem from="1615830378129" duration="102000" />
       <workItem from="1615895102668" duration="2091000" />
       <workItem from="1615960453216" duration="1446000" />
+      <workItem from="1616406984865" duration="656000" />
+      <workItem from="1617706815598" duration="1832000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixing Version">
+      <created>1616407034243</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616407034243</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,5 +119,12 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixing Version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing Version" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

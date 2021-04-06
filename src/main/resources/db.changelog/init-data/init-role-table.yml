@@ -1,5 +1,4 @@
 databaseChangeLog:
-
   - changeSet:
       id: create-role-table
       author: itvillage

@@ -9,9 +9,11 @@
 http://localhost:20230/public/signup
 ```
 {
-    "username": "roni2923",
-     "role":["ROLE_ADMIN"],
-    "password":"roni2923"
+    "userId":"123",
+    "username":"123",
+    "role":"123",
+    "password":"123",
+    "applicationName":"123"
 }
 ```
 ## signin

@@ -37,4 +37,9 @@ public class UserDetailsController {
         return loggedUserDetailsResponse;
     }
 
+    @GetMapping("/test-api")
+    public String getUser() {
+        return "I am User";
+    }
+
 }

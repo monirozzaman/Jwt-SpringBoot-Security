@@ -57,11 +57,23 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 authorizeRequests()
                 .antMatchers("/public/**").permitAll()
                 .antMatchers("/actuator/**").permitAll()
+                .antMatchers("/**/user-details/").hasAnyRole(getAccessAbleRole())
+                .antMatchers("/**/test-api/").hasAnyRole(getAccessAbleRoleForUser())
                 .anyRequest().authenticated()
                 .and()
                 .exceptionHandling().authenticationEntryPoint(unauthorizedHandler).and()
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 
         http.addFilterBefore(authenticationJwtTokenFilter(), UsernamePasswordAuthenticationFilter.class);
+    }
+
+    private String[] getAccessAbleRole() {
+        String[] roles = {"ADMIN"};
+        return roles;
+    }
+
+    private String[] getAccessAbleRoleForUser() {
+        String[] roles = {"USER"};
+        return roles;
     }
 }
